@@ -7,7 +7,7 @@ public class AgeInFiveYears {
         Scanner answer = new Scanner(System.in);
         System.out.print("Hello.  What is your name? ");
         String name = answer.next();
-        System.out.print("Hi, " + name +"!  How old are you? ");
+        System.out.println("\nHi, " + name +"!  How old are you? ");
         int age = answer.nextInt();
         int age1 = age + 5;
         int age2 = age - 5;

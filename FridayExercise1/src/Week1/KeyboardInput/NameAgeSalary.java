@@ -11,8 +11,8 @@ public class NameAgeSalary {
         int age = answer.nextInt();
         System.out.println("So you're " + age +", eh?  That's not old at all!\n" +
                 "How much do you make, " + name +"?");
-        int income = answer.nextInt();
-        System.out.println(income +"!  I hope that's per hour and not per year! LOL!");
+        double income = answer.nextDouble();
+        System.out.println(income +" !  I hope that's per hour and not per year! LOL!");
 
     }
 }

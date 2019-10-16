@@ -13,7 +13,7 @@ public class AddingValuesInLoop {
             if (num != 0) {
                 System.out.print("The total so far is " + total +"\nNumber: ");
             } else {
-                System.out.print("\nThe total so far is " + total);
+                System.out.println("\nThe total is " + total  + ".");
                 break;
             }
         }
